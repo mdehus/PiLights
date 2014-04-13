@@ -3,7 +3,7 @@ import controller
 import time
 
 def main():
-    with allleds.FiveRGBLEDController() as rgbctl:
+    with controller.FiveRGBLEDController() as rgbctl:
         rgbctl.random_sparkle(count=5, pause=.05, n_leds=1, fade_speed=.0135)
         #rgbctl.ping_pong("red_leds", count=1, fade_speed=.00005)
         rgbctl.walk("blue_leds", reverse=True, fade_speed=.0003)
