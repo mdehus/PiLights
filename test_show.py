@@ -1,5 +1,5 @@
 import RPi.GPIO as GPIO
-import allleds
+import controller
 import time
 
 def main():
