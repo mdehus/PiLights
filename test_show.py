@@ -21,7 +21,7 @@ def main():
         rgbctl.flash("blue_leds", count=10, pause=.03)
         rgbctl.flash("red_leds", count=5, pause=.03)
         rgbctl.flash("green_leds", count=5, pause=.03)
-        rgbctl.crazy_disco_shit(9)
+        rgbctl.crazy_disco_party(9)
         rgbctl.flash("all_leds", count=40, pause=.03)
 
 if __name__ == '__main__':
