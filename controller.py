@@ -131,7 +131,7 @@ class FiveRGBLEDController(object):
                     last_color = color
                     break
 
-            self.flash(color, count=3, wait_time=wait_time)
+            self.flash(color, count=3, pause=pause)
 
     def walk(self, color, bg=None, reverse=False, count=1, fade_speed=.0005):
         leds = getattr(self, color)
